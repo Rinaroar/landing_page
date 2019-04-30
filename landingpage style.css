@@ -21,7 +21,7 @@ html, body {
 
     background: url("IMG_4109.JPG");
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: top;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -64,9 +64,33 @@ html, body {
     -webkit-box-shadow: 2px 2px 26px 1px rgba(158,153,158,0.78);
     -moz-box-shadow: 2px 2px 26px 1px rgba(158,153,158,0.78);
     box-shadow: 2px 2px 26px 1px rgba(158,153,158,0.78);
-    background-color: #e2b90c;
-    color: white;
+    background-color: #f2f2f2;
+    color: black;
     transform: scale(1.1);
     z-index: auto;
 
 }
+
+.jumbotron_part{
+    min-height: 80vh;
+    height: auto;
+}
+
+.jumbotron{
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: #f2f2f2;
+
+}
+
+.btn{
+    background-color: #e2b90c;
+    border: none;
+    margin-top: 30px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #e2b90c;
+}
+
