@@ -13,3 +13,32 @@ for (let i=0; i<button.length; i++){
         }
     })
 }
+
+// Proposition 1
+
+/** document.getElementById('test').style.color = "blue"; **/
+
+
+
+// Proposition 2
+
+/** let title = document.getElementById('test');
+
+function red(){
+    document.body.style.color = "red";
+    console.log(document.body.style.color)
+};
+
+title.addEventListener("click", red); **/
+
+
+
+// Proposition 3
+
+let element = document.getElementById('test');
+
+element.addEventListener('click', function() {
+    document.body.style.color = "red";
+
+});
+
